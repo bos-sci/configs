@@ -1,0 +1,15 @@
+{
+  "name": "@boston-scientific/prettier-config",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
