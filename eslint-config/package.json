@@ -2,6 +2,11 @@
   "name": "@boston-scientific/eslint-config",
   "version": "0.0.0",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bos-sci/configs.git",
+    "directory": "eslint-config"
+  },
   "main": "index.js",
   "files": [
     "index.js"
