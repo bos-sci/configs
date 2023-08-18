@@ -1,7 +1,7 @@
 {
   "name": "@boston-scientific/eslint-config",
   "version": "0.0.0",
-  "description": "",
+  "description": "ESLint config for Boston Scientific applications.",
   "repository": {
     "type": "git",
     "url": "https://github.com/bos-sci/configs.git",
