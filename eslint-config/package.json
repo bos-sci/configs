@@ -1,6 +1,6 @@
 {
   "name": "@boston-scientific/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "ESLint config for Boston Scientific applications.",
   "repository": {
     "type": "git",
@@ -16,5 +16,25 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-n": "^15.4.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.31.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
 }

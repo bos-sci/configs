@@ -1,5 +1,4 @@
 module.exports = {
-  root: true,
   env: {
     browser: true,
     es2021: true,
@@ -9,12 +8,10 @@ module.exports = {
   extends: [
     "react-app",
     "react-app/jest",
-    /* 'plugin:testing-library/react', */
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
     "plugin:react/jsx-runtime",
-    /* 'plugin:@typescript-eslint/recommended', */
     "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended",
   ],
@@ -27,7 +24,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: [/* '@typescript-eslint', */ "react", "react-refresh"],
+  plugins: ["react", "react-refresh"],
   rules: {
     // Legend: 0 = off, 1 = warn, 2 = error
     "no-undef": 0,
