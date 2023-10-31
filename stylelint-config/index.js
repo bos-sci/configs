@@ -170,6 +170,8 @@ module.exports = {
       "height",
       "min-width",
       "min-height",
+      "max-width",
+      "max-height",
       "aspect-ratio",
       "resize",
       "table-layout",
