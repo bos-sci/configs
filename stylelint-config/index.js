@@ -425,7 +425,7 @@ module.exports = {
     "scss/function-no-unknown": [
       true,
       {
-        ignoreFunctions: ["space", "calc"],
+        ignoreFunctions: ["space", "calc", "blur"],
       },
     ],
     "scss/function-quote-no-quoted-strings-inside": true,
